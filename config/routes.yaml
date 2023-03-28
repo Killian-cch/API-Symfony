@@ -6,3 +6,7 @@ controllers:
 
 api_login_check:
     path: /api/login_check
+
+get_user:
+    path: /api/users/me
+    methods: ['GET']

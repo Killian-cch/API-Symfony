@@ -58,7 +58,5 @@ class CreateUserCommand extends Command {
 
         $output->writeln("Success !");
         return Command::SUCCESS;
-
-        return Command::SUCCESS;
     }
 }
